@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/gt-party-builder/static/css/main.7989a57b.chunk.css",
-    "main.js": "/gt-party-builder/static/js/main.ce8d75c9.chunk.js",
-    "main.js.map": "/gt-party-builder/static/js/main.ce8d75c9.chunk.js.map",
+    "main.css": "/gt-party-builder/static/css/main.079afa02.chunk.css",
+    "main.js": "/gt-party-builder/static/js/main.0c7b74f0.chunk.js",
+    "main.js.map": "/gt-party-builder/static/js/main.0c7b74f0.chunk.js.map",
     "runtime-main.js": "/gt-party-builder/static/js/runtime-main.3137641d.js",
     "runtime-main.js.map": "/gt-party-builder/static/js/runtime-main.3137641d.js.map",
     "static/js/2.e05fa8de.chunk.js": "/gt-party-builder/static/js/2.e05fa8de.chunk.js",
     "static/js/2.e05fa8de.chunk.js.map": "/gt-party-builder/static/js/2.e05fa8de.chunk.js.map",
     "index.html": "/gt-party-builder/index.html",
-    "static/css/main.7989a57b.chunk.css.map": "/gt-party-builder/static/css/main.7989a57b.chunk.css.map",
+    "static/css/main.079afa02.chunk.css.map": "/gt-party-builder/static/css/main.079afa02.chunk.css.map",
     "static/js/2.e05fa8de.chunk.js.LICENSE.txt": "/gt-party-builder/static/js/2.e05fa8de.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3137641d.js",
     "static/js/2.e05fa8de.chunk.js",
-    "static/css/main.7989a57b.chunk.css",
-    "static/js/main.ce8d75c9.chunk.js"
+    "static/css/main.079afa02.chunk.css",
+    "static/js/main.0c7b74f0.chunk.js"
   ]
 }
