@@ -5,15 +5,15 @@
     "main.js.map": "/gt-party-builder/static/js/main.44cad68d.chunk.js.map",
     "runtime-main.js": "/gt-party-builder/static/js/runtime-main.3137641d.js",
     "runtime-main.js.map": "/gt-party-builder/static/js/runtime-main.3137641d.js.map",
-    "static/js/2.fb21680b.chunk.js": "/gt-party-builder/static/js/2.fb21680b.chunk.js",
-    "static/js/2.fb21680b.chunk.js.map": "/gt-party-builder/static/js/2.fb21680b.chunk.js.map",
+    "static/js/2.0a9da110.chunk.js": "/gt-party-builder/static/js/2.0a9da110.chunk.js",
+    "static/js/2.0a9da110.chunk.js.map": "/gt-party-builder/static/js/2.0a9da110.chunk.js.map",
     "index.html": "/gt-party-builder/index.html",
     "static/css/main.87c7de5d.chunk.css.map": "/gt-party-builder/static/css/main.87c7de5d.chunk.css.map",
-    "static/js/2.fb21680b.chunk.js.LICENSE.txt": "/gt-party-builder/static/js/2.fb21680b.chunk.js.LICENSE.txt"
+    "static/js/2.0a9da110.chunk.js.LICENSE.txt": "/gt-party-builder/static/js/2.0a9da110.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3137641d.js",
-    "static/js/2.fb21680b.chunk.js",
+    "static/js/2.0a9da110.chunk.js",
     "static/css/main.87c7de5d.chunk.css",
     "static/js/main.44cad68d.chunk.js"
   ]
