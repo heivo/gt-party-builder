@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useMemo, useState } from 'react';
 import HeroPicker from './HeroPicker';
 import PartyBuffSummary from './PartyBuffSummary';
 import StateContext from '../context/StateContext';
@@ -8,6 +8,7 @@ import { Hero, Weapon } from '../context/DataContext';
 import ChainInfo from './ChainInfo';
 import WeaponPicker from './WeaponPicker';
 import ReactTooltip from 'react-tooltip';
+import { useParams } from 'react-router-dom';
 
 function MainView() {
 	const { slots, selectHero, selectWeapon, reset } = useContext(StateContext);
@@ -43,6 +44,16 @@ function MainView() {
 		setWeaponPickerSlot(undefined);
 	};
 
+	const { slug } = useParams<{ slug: string | undefined }>();
+
+	const gtTeamPlannerLink = useMemo(() => {
+		if (slug) {
+			return `https://gt-team-planner.herokuapp.com/${slug}`;
+		} else {
+			return 'https://gt-team-planner.herokuapp.com';
+		}
+	}, [slug]);
+
 	if (heroPickerSlot !== undefined) {
 		const currentHero = slots[heroPickerSlot].hero;
 		const otherUsedHeros = selectedHeros.filter((hero) => hero !== currentHero);
@@ -69,6 +80,10 @@ function MainView() {
 
 	return (
 		<>
+			<p style={{ maxWidth: 800, fontWeight: 'bold' }}>
+				There is a newer version of this tool available <a href={gtTeamPlannerLink}>here</a>. Please update your
+				bookmarks.
+			</p>
 			<div className={styles.slotContainer}>
 				{slots.map((slot, slotNumber) => (
 					<Slot
